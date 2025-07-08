@@ -35,13 +35,4 @@ The goal is to **maximize uptime and resiliency** through AI-powered decision-ma
 
 ---
 
-## 🏗️ System Architecture
 
-```mermaid
-flowchart LR
-    A[Service Metrics] --> B[Health Assessment Engine]
-    B --> C[Failure Classifier (AI Model)]
-    C --> D[Healing Decision Engine]
-    D --> E[Orchestrator (K8s / Docker)]
-    E --> F[Services]
-    F -->|Feedback Loop| A
