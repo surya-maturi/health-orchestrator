@@ -1,0 +1,8 @@
+requests
+scikit-learn
+numpy
+kubernetes
+joblib
+fastapi
+uvicorn
+pydantic

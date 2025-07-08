@@ -1,0 +1,13 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: health-orchestrator
+spec:
+  type: LoadBalancer
+
+  selector:
+    app: health-orchestrator
+  ports:
+    - protocol: TCP
+      port: 80
+      targetPort: 80
