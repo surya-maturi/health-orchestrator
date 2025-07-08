@@ -6,3 +6,8 @@ joblib
 fastapi
 uvicorn
 pydantic
+fastapi
+uvicorn
+joblib
+scikit-learn
+pytest 
